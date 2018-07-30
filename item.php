@@ -4,9 +4,9 @@ session_start();
 
 putenv('SELECTOR=cats');
 
-if (! isset( $_SESSION['item']) ) {
+//if (! isset( $_SESSION['item']) ) {
 	include('include/selector.php');  
-}
+//}
 
 // Get random word
 function getRandomWord($len = 10) {
