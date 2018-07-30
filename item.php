@@ -2,7 +2,7 @@
 
 session_start();
 
-putenv('SELECTOR=pets');
+putenv('SELECTOR=cats');
 
 if (! isset( $_SESSION['item']) ) {
 	include('include/selector.php');  
