@@ -2,6 +2,8 @@
 
 session_start();
 
+$_SESSION['SELECTOR'] = 'cities';
+
 if (! isset( $_SESSION['item']) ) {
 	include('include/selector.php');  
 }
